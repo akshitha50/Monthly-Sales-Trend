@@ -1,0 +1,10 @@
+
+plt.figure(figsize=(10, 5))
+plt.bar(df["Month"], df["Total Sales"])
+plt.title("Monthly Sales Comparison - 2014")
+plt.xlabel("Month")
+plt.ylabel("Total Sales")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig("monthly_sales_bar_chart.png")
+plt.show()
